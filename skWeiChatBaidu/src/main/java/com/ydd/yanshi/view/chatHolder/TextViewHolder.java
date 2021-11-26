@@ -38,7 +38,7 @@ public class TextViewHolder extends AChatHolderInterface {
         int size = PreferenceUtils.getInt(mContext, Constants.FONT_SIZE) + 14;
         mTvContent.setTextSize(size);
         mTvContent.setTextColor(mContext.getResources().getColor(R.color.black));
-        String strTime = TimeUtils.sk_time_long_to_chat_time_str(message.getReadTime());
+        String strTime = TimeUtils.sk_time_long_to_chat_time_str(message.getTimeSend());
         tvTime.setText(strTime);
         String content = StringUtils.replaceSpecialChar(message.getContent());
         CharSequence charSequence = HtmlUtils.transform200SpanString(content, true);
