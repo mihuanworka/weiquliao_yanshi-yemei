@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 
 buildscript {
     ext {
-        appId = 'com.ydd.yemeijiaoren' // app的包名，
+        appId = 'com.ydd.ylsq' // 夜恋社区，
         channel = 'client' // bugly上显示的渠道名，
         buglyAppId = 'bb207a759e' // bugly配置的appId,
         baiduApiKey = '0TAa74ZSejSaNTPMpwhzFiroB1petfD8' // baidu配置的apiKey,
